@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Postulantes-web:war exploded">
+    <output-path>$PROJECT_DIR$/Postulantes-web/target/Postulantes-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Postulantes-web" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Postulantes-web/target/Postulantes-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Postulantes-web/web/Web" />
+    </root>
+  </artifact>
+</component>

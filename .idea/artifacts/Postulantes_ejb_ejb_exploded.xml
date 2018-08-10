@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="Postulantes-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/Postulantes-ejb/target/Postulantes-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Postulantes-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Postulantes-ejb/target/Postulantes-ejb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Postulantes-ejb" />
+    </root>
+  </artifact>
+</component>

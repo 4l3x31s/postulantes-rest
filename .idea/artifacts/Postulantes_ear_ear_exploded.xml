@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Postulantes-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/Postulantes-ear/target/Postulantes-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Postulantes-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Postulantes-ear/target/Postulantes-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/Postulantes-ear/src/main/application" />
+      <element id="archive" name="Postulantes-web.war">
+        <element id="artifact" artifact-name="Postulantes-web:war exploded" />
+      </element>
+      <element id="archive" name="Postulantes-ejb.jar">
+        <element id="artifact" artifact-name="Postulantes-ejb:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

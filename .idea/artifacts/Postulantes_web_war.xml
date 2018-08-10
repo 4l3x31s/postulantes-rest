@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Postulantes-web:war">
+    <output-path>$PROJECT_DIR$/Postulantes-web/target</output-path>
+    <root id="archive" name="Postulantes-web.war">
+      <element id="artifact" artifact-name="Postulantes-web:war exploded" />
+    </root>
+  </artifact>
+</component>

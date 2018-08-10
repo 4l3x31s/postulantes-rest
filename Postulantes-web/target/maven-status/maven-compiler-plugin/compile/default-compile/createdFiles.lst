@@ -1,0 +1,4 @@
+bo\gob\ruat\postulantes\controller\MemberController.class
+bo\gob\ruat\postulantes\rest\MemberResourceRESTService.class
+bo\gob\ruat\postulantes\rest\JaxRsActivator.class
+bo\gob\ruat\postulantes\util\WebResources.class

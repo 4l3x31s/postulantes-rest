@@ -1,0 +1,5 @@
+bo\gob\ruat\postulantes\util\Resources.class
+bo\gob\ruat\postulantes\service\MemberRegistration.class
+bo\gob\ruat\postulantes\data\MemberListProducer.class
+bo\gob\ruat\postulantes\model\Member.class
+bo\gob\ruat\postulantes\data\MemberRepository.class

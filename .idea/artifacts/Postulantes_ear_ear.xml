@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="Postulantes-ear:ear">
+    <output-path>$PROJECT_DIR$/Postulantes-ear/target</output-path>
+    <root id="archive" name="Postulantes-ear.ear">
+      <element id="artifact" artifact-name="Postulantes-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>
