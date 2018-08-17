@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    JBoss, Home of Professional Open Source
+    Copyright 2013, Red Hat, Inc. and/or its affiliates, and individual
+    contributors by the @authors tag. See the copyright.txt in the
+    distribution for a full listing of individual contributors.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                template="/WEB-INF/templates/default.xhtml">
+    <ui:define name="content">
+        <h5 class="center-align">FORMULARIO ÚNICO DE POSTULACIÓN</h5>
+        <div class="row">
+            <div class="row">
+                <div class="input-field col s4">
+                    <input id="no_referencia" type="text" class="validate"/>
+                    <label for="no_referencia">No de Referencia</label>
+                </div>
+                <div class="input-field col s5">
+                    <input id="nom_cargo" type="text" class="validate"/>
+                    <label for="nom_cargo">Nombre del Cargo al que postula</label>
+                </div>
+                <div class="input-field col s3">
+                    <input id="dep_ciudad" type="text" class="validate"/>
+                    <label for="dep_ciudad">Departamento/Ciudad</label>
+                </div>
+            </div>
+        </div>
+        <h6 class="center-align">I. DATOS GENERALES DEL POSTULANTE</h6>
+        <div class="row">
+            <div class="row">
+                <div class="input-field col s3">
+                    <input id="ap_paterno" type="text" class="validate"/>
+                    <label for="ap_paterno">Apellido Paterno</label>
+                </div>
+                <div class="input-field col s3">
+                    <input id="ap_materno" type="text" class="validate"/>
+                    <label for="ap_materno">Apellido Materno</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="nombres" type="text" class="validate"/>
+                    <label for="nombres">Nombres</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s2">
+                    <input id="fe_nac" type="date" class="validate"/>
+                    <label for="fe_nac">Fecha Nacimiento</label>
+                </div>
+                <div class="input-field col s2">
+                    <input id="nacionalidad" type="text" class="validate"/>
+                    <label for="nacionalidad">Nacionalidad</label>
+                </div>
+                <div class="input-field col s8">
+                    <input id="dom_actual" type="text" class="validate"/>
+                    <label for="dom_actual">Domicilio Actual</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s2">
+                    <input id="ci" type="number" class="validate"/>
+                    <label for="ci">CI</label>
+                </div>
+                <div class="input-field col s1">
+                    <input id="expedido" type="text" class="validate"/>
+                    <label for="expedido">Expedido</label>
+                </div>
+                <div class="input-field col s2">
+                    <input id="ciudad_residencia" type="text" class="validate"/>
+                    <label for="ciudad_residencia">Ciudad de Residencia</label>
+                </div>
+                <div class="input-field col s3">
+                    <input id="tel_domicilio" type="text" class="validate"/>
+                    <label for="tel_domicilio">Teléfono domicilio</label>
+                </div>
+                <div class="input-field col s3">
+                    <input id="tel_celular" type="text" class="validate"/>
+                    <label for="tel_celular">Teléfono celular</label>
+                </div>
+                <div class="input-field col s1">
+                    <input id="genero" type="text" class="validate"/>
+                    <label for="genero">Género</label>
+                </div>
+            </div>
+        </div>
+        <h6 class="center-align">II INFORMACIÓN SOBRE LA FORMACIÓN ACADÉMICA </h6>
+        <h6>II I  Máximo nivel académico alcanzado </h6>
+        <div class="row">
+            <div class="row">
+                <div class="input-field col s3">
+                    <input id="niv_academ" type="text" class="validate"/>
+                    <label for="niv_academ">Nivel Académico</label>
+                </div>
+                <div class="input-field col s3">
+                    <input id="num_reg_profes" type="text" class="validate"/>
+                    <label for="num_reg_profes">N° Registro profesional</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s5">
+                    <input id="univ_institu" type="text" class="validate"/>
+                    <label for="univ_institu">Universidad/Institución</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="nom_prog_est" type="text" class="validate"/>
+                    <label for="nom_prog_est">Nombre del Programa de estudios</label>
+                </div>
+            </div>
+        </div>
+        <h6 >II.II  Formación Académica</h6>
+        <h6 class="center-align">Nivel Doctorado (D)  y/o Maestria (M)* Colocar en el recuadro la inicial correspondiente</h6>
+    </ui:define>
+</ui:composition>

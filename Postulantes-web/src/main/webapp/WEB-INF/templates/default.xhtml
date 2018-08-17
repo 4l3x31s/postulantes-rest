@@ -20,34 +20,38 @@
    xmlns:h="http://java.sun.com/jsf/html"
    xmlns:ui="http://java.sun.com/jsf/facelets">
 <h:head>
-   <title>Postulantes</title>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <title>Parallax Template - Materialize</title>
    <h:outputStylesheet name="css/screen.css" />
+   <!-- CSS  -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+   <link href="resources/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+   <link href="resources/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </h:head>
 <h:body>
-   <div id="container">
-      <div class="dualbrand">
-         <img src="resources/gfx/dualbrand_logo.png" />
+   <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+         <a id="logo-container" href="#" class="brand-logo">Logo</a>
+         <ul class="right hide-on-med-and-down">
+            <li><a href="#">Navbar Link</a></li>
+         </ul>
+
+         <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Navbar Link</a></li>
+         </ul>
+         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
-      <div id="content">
-         <ui:insert name="content">
-                    [Template content will be inserted here]
-         </ui:insert>
-      </div>
-      <div id="aside">
-         <p>Learn more about JBoss WildFly.</p>
-         <ul>
-            <li><a
-               href="https://github.com/wildfly/quickstart/blob/master/guide/Introduction.asciidoc">Getting Started Developing Applications Guide</a></li>
-            <li><a href="http://www.wildfly.org/">Community Project Information</a></li>
-         </ul>            
-      </div>
-      <div id="footer">
-         <p>
-            This project was generated from a Maven archetype from
-            WildFly.<br />
-         </p>
-      </div>
-   </div>
+   </nav>
+   <ui:insert name="content">
+
+   </ui:insert>
+
+
+   <!--  Scripts-->
+   <script src="resources/js/jquery-2.1.1.min.js"></script>
+   <script src="resources/js/materialize.js"></script>
+   <script src="resources/js/init.js"></script>
 </h:body>
 </html>

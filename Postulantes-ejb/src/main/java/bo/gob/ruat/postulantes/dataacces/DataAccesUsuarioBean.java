@@ -21,8 +21,8 @@ public class DataAccesUsuarioBean {
     }
 
     public posUsuarioEntity loginUsuario(String ci, String pass) {
-        posUsuarioEntity objUsuario = em.createQuery("Select pu From posUsuarioEntity pu where pu.ci = :ci " +
-                "and pu.password=:pass", posUsuarioEntity.class).getSingleResult();
+        posUsuarioEntity objUsuario = em.createQuery("Select pu From posUsuarioEntity pu where pu.ci = "+ ci +
+                "and pu.password=" + pass, posUsuarioEntity.class).getSingleResult();
         return objUsuario;
     }
 
